@@ -1,9 +1,10 @@
 name: Smartwin-CI/CD[PROD-Pipeline]
 
 on: 
-  push:
-    branches:
-      -develop
+  workflow_dispatch
+#   push:
+#     branches:
+#       -develop
 
 jobs:
   Fast-FTP-Action:
