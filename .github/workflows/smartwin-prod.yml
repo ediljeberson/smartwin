@@ -1,4 +1,4 @@
-name: Smartwin-CI/CD[PROD]
+name: Smartwin-CI/CD[PROD-Pipeline]
 
 on: 
   push:
