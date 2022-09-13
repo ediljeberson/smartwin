@@ -21,4 +21,4 @@ jobs:
         port: 2222
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /smartwinacademy.com
+        server-dir: /public_html
