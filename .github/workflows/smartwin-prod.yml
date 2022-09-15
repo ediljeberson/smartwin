@@ -22,3 +22,4 @@ jobs:
         username: epiz_32597834
         password: v3BbKIN9GT
         remote_folder: /htdocs/test
+        cleanup: false
