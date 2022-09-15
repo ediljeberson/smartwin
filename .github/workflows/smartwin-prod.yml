@@ -8,13 +8,13 @@ on:
 
 jobs:
   Fast-FTP-Action:
-    name: Smartwin - Deploy
+    name: Fast FTP Action
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
 
-    - name: Fast FTP Action
+    - name: Smartwin - Deploy
       uses: sand4rt/ftp-deployer@v1.4
       with:
         server: ftpupload.net
