@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Fast FTP Action
-      uses: sand4rt/ftp-deployer@v1.4
+    - name: Smartwin - Deploy
+      uses: anvil-solutions/Fast-FTP-Action@2.1.3
       with:
         server: ftpupload.net
         username: epiz_32597834
