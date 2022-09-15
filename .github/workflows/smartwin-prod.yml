@@ -8,7 +8,7 @@ on:
 
 jobs:
   Fast-FTP-Action:
-    name: Fast FTP Action
+    name: Smartwin
     runs-on: ubuntu-latest
 
     steps:
@@ -21,4 +21,3 @@ jobs:
         username: epiz_32597834
         password: v3BbKIN9GT
         remote_dir: htdocs/test
-        cleanup: false
